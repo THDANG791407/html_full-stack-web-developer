@@ -1,0 +1,42 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: black;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px; /* Thay đổi độ rộng theo ý bạn */
+    margin-bottom: 20px; /* Khoảng cách giữa ảnh và đoạn văn bản */
+    margin-top: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 400px; /* Thay đổi chiều rộng ảnh theo ý bạn */
+    height: auto; /* Giữ tỷ lệ ảnh gốc */
+    margin: 0 10px; /* Khoảng cách giữa các ảnh */
+}
+
+.text-below {
+    font-size: 16px;
+    color: greenyellow;
+    margin-top: 10px;
+}
+h1 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
